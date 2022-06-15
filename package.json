@@ -1,5 +1,9 @@
 {
+  "name": "zzzz_vert_other_tenant_deploy",
   "private": true,
+  "engines": {
+    "node": ">=16.15.1"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -7,6 +11,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.4"
+    "nuxt": "^3.0.0-rc.4"
+  },
+  "volta": {
+    "node": "16.15.1",
+    "npm": "8.12.1"
   }
 }
